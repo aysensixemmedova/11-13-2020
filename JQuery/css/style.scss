@@ -1,0 +1,42 @@
+#accordion{
+    button{
+        width: 100%;
+        padding: 10px;
+        background: rgb(86, 86, 131);
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    p{
+        display: none;
+       
+}
+}
+#tabMenu{
+    margin: 5em 50px;
+    button{
+        border: none;
+        padding: 14px;
+        background: rgb(86, 86, 131);
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 700;
+        transition: background .3s ease-in-out;
+        &:hover{
+            background: #333;
+           
+        }
+    }
+    .tab-content{
+        margin: 5px 0;
+        border: 2px solid  rgb(86, 86, 131);
+        padding: 20px;
+        border-radius: 0 0 20px 20px;
+    }
+    p{
+        display: none;
+        &:first-child{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+#accordion button {
+  width: 100%;
+  padding: 10px;
+  background: #565683;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+#accordion p {
+  display: none;
+}
+
+#tabMenu {
+  margin: 5em 50px;
+}
+
+#tabMenu button {
+  border: none;
+  padding: 14px;
+  background: #565683;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+  -webkit-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+#tabMenu button:hover {
+  background: #333;
+}
+
+#tabMenu .tab-content {
+  margin: 5px 0;
+  border: 2px solid #565683;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+#tabMenu p {
+  display: none;
+}
+
+#tabMenu p:first-child {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
